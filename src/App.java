@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class App {
     public static void main(String[] args) throws Exception {
         String [] sui = new String [6];
@@ -11,5 +13,9 @@ public class App {
 
         for (steg =0; steg <6; steg++){
             System.out.println(sui[steg]);
+            Scanner tb = new Scanner(System.in);
+            tb.nextLine();
         }
+    }
+    
 }
